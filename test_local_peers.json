@@ -1,0 +1,33 @@
+{
+  "comment": "Local testing - simulating Mac #1 on this machine",
+  "peers": {
+    "test_mac1": {
+      "address": "127.0.0.1",
+      "port": 50061,
+      "device_capabilities": {
+        "model": "Mac #1 Test",
+        "chip": "Apple Silicon",
+        "memory": 16384,
+        "flops": {
+          "fp32": 10.0,
+          "fp16": 20.0,
+          "int8": 40.0
+        }
+      }
+    },
+    "mac2": {
+      "address": "127.0.0.1",
+      "port": 50051,
+      "device_capabilities": {
+        "model": "Mac Studio",
+        "chip": "Apple M3 Ultra",
+        "memory": 262144,
+        "flops": {
+          "fp32": 54.26,
+          "fp16": 108.52,
+          "int8": 217.04
+        }
+      }
+    }
+  }
+}
